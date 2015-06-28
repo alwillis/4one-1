@@ -1,0 +1,15 @@
+{
+    "@context": "http://schema.org",
+    "@type": "LocalBusiness",
+    "name": "4ONE Services",
+    "url": "http://4oneservices.com",
+    "description": "4ONE Services is a Boston-based, family-run business wih more than 30 year of experience providing moving, cleaning, catering and utility services within New England.",
+    "logo": "{{ site.baseurl }}/img/4-one-logo.png",
+    "telephone": "617-202-8179",
+    "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Roxbury",
+        "addressRegion": "Massachusetts",
+        "postalCode": "02119"
+    }
+}
