@@ -14,7 +14,21 @@ header {
     border-top: 8px solid black;
     background-color: white;
     text-align: center;
+    text-transform: uppercase;
 }
+
+    header a {
+        font-family: 'Alfa Slab One', serif;
+        font-size: 1.0625rem;
+        font-weight: normal;
+    }
+
+    header p {
+        color: black;
+        font-family: 'Source Sans Pro';
+        font-size: 1em;
+        font-weight: 300;
+    }
 
 div {
     color: white;
@@ -33,12 +47,17 @@ div {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 2rem; /* 32px */
         font-weight: 900;
+        margin-bottom: 0;
+        margin-top: 0;
     }
 
     div p {
         font-family: 'Source Sans Pro', sans-serif;
-        font-size: 1.5625rem;
+        font-size: 1.5625rem; /* 25px */
         font-weight: 400;
+        margin-bottom: 0;
+        margin-top: 0;
+        padding-bottom: 1em;
         text-transform: none;
     }
 
@@ -70,8 +89,37 @@ div {
                                        '../img/utility-2x.jpg') 2x no-repeat;
 }
 
+button {
+    background-color: white;
+    border: 0;
+    border-radius: 20px;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+}
+
+.about, .contact {
+    color: black;
+    padding-top: 1em;
+}
+
+.about {
+    background-color: #003CC3;
+    color: white;
+    font-family: 'Source Sans Pro';
+    font-size: 0.78125rem; /* 12.5px ÷ 16px */
+    font-weight: 300;
+}
+
 @media screen and (min-width: 1024px) {
     div {
+        height: 258px;
         width: 1024px;
     }
 }
