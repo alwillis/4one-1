@@ -106,20 +106,42 @@ button {
 
 .about, .contact {
     color: black;
+    font-family: 'Source Sans Pro', sans-serif;
     padding-top: 1em;
 }
 
 .about {
     background-color: #003CC3;
     color: white;
-    font-family: 'Source Sans Pro';
     font-size: 0.78125rem; /* 12.5px ÷ 16px */
     font-weight: 300;
+}
+
+.call, .email {
+    color: #003CC3;
+    font-size: 1.562rem; /* 25px */
+    font-weight: 900;
+}
+
+.phone-number {
+    color: black;
+    font-family: 'Alfa Slab One';
+    font-size: 2.3125rem; /* 37px */
+    text-decoration: none;
 }
 
 footer {
     background-color: black;
 }
+
+    footer p {
+        display: inline;
+        font-size: 0.875rem;
+        padding-bottom: 0;
+        text-align: center;
+        text-transform: uppercase;
+        vertical-align: middle;
+    }
 
 @media screen and (min-width: 1024px) {
     div {
