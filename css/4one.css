@@ -1,0 +1,78 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+div.container {
+    margin: 0 auto;
+}
+
+header {
+    border-top: 8px solid black;
+    background-color: white;
+    text-align: center;
+}
+
+div {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+    div h1 {
+        font-family: 'Alfa Slab One', serif;
+        font-size: 2.3125rem; /* 37px */
+        font-weight: normal;
+        margin-bottom: 0;
+    }
+
+    div h2 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 2rem; /* 32px */
+        font-weight: 900;
+    }
+
+    div p {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 1.5625rem;
+        font-weight: 400;
+        text-transform: none;
+    }
+
+#moving {
+    background: url('../img/moving-1x.jpg') no-repeat;
+
+    background: -webkit-image-set( url('../img/moving-1x.jpg') 1x,
+                                       '../img/moving-2x.jpg') 2x no-repeat;
+}
+
+#cleaning {
+    background: url('../img/cleaning-1x.jpg') no-repeat;
+
+    background: -webkit-image-set( url('../img/cleaning-1x.jpg') 1x,
+                                       '../img/cleaning-2x.jpg') 2x no-repeat;
+}
+
+#catering {
+    background: url('../img/catering-1x.jpg') no-repeat;
+
+    background: -webkit-image-set( url('../img/catering-1x.jpg') 1x,
+                                       '../img/catering-2x.jpg') 2x no-repeat;
+}
+
+#utility {
+    background: url('../img/utility-1x.jpg') no-repeat;
+
+    background: -webkit-image-set( url('../img/utility-1x.jpg') 1x,
+                                       '../img/utility-2x.jpg') 2x no-repeat;
+}
+
+@media screen and (min-width: 1024px) {
+    div {
+        width: 1024px;
+    }
+}
+

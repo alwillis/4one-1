@@ -1,0 +1,11 @@
+title: 4ONE Services
+timezone: America/New_York
+
+exclude:
+    - .git
+    - bower_components
+    - bower.json
+    - Gruntfile.js
+    - .map
+    - node_modules
+    - package.json

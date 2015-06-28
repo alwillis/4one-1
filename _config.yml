@@ -1,0 +1,10 @@
+title: 4ONE Services
+timezone: America/New_York
+
+baseurl: /4one
+
+exclude:
+    - .git
+    - bower_components
+    - bower.json
+    - package.json
