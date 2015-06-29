@@ -41,6 +41,15 @@ em {
     font-weight: 900;
 }
 
+h1 a:link, a:visited {
+    color: #0033C3;
+    text-decoration: none;
+}
+
+h1 a:hover, a:active {
+    text-decoration: underline;
+}
+
 div {
     color: white;
     text-align: center;
