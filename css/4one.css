@@ -25,10 +25,21 @@ header {
 
     header p {
         color: black;
-        font-family: 'Source Sans Pro';
-        font-size: 1em;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 1rem;
         font-weight: 300;
     }
+
+    .tagline {
+        text-transform: uppercase;
+    }
+
+em {
+    color: #003CC3;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 900;
+}
 
 div {
     color: white;
@@ -149,4 +160,3 @@ footer {
         width: 1024px;
     }
 }
-
