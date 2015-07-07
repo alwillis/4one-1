@@ -6,60 +6,69 @@
     {% include head.html %}
 </head>
 <body>
-    <div class="container">
     <header>
-        <h1><a href="#moving">Moving.</a> <a href="#cleaning">Cleaning.</a> <a href="#catering">Catering.</a> <a href="#utility">Utility.</a></h1>
+        <h1>Moving. Cleaning. Catering. Utility.</h1>
+
+        <!--
+        <img src="img/fb-butt.svg" alt="Facbook"/>
+        <img src="img/email-butt.svg" alt="Email"/>
+        -->
         <p class="tagline"><em>4</em> Services. <em>One</em> Company</p>
     </header>
 
-    <div id="moving">
+    <section id="moving">
         <h1>Moving</h1>
         <h2>Strong, dependable &amp; reliable.</h2>
-        <p>Our relocation services provide you with the convenient and<br />stress-free moving experience you deserve.</p>
+        <p>Our relocation services provide you with the convenient<br /> and stress-free moving experience you deserve.</p>
         <form action="">
             <button name="button">View our rates</button>
         </form>
-    </div>
+    </section>
 
-    <div id="cleaning">
+    <section id="cleaning">
         <h1>Cleaning</h1>
         <h2>Let your space shine.</h2>
-        <p>From home to industrial, our dedicated staff provides unmatched<br /> cleaning services for any space.</p>
+        <p>From home to industrial, our dedicated staff provides<br /> unmatched cleaning services for any space.</p>
         <form action="">
             <button name="button">Contact Us</button>
         </form>
-    </div>
+    </section>
 
-    <div id="catering">
+    <section id="catering">
         <h1>Catering</h1>
         <h2>A premium experience.</h2>
-        <p>We partner with local chefs to offer<br />delicious, healthy, and unforgettable meals.</p>
-        <button name="button">Contact Us</button>
-    </div>
+        <p>We partner with local chefs to offer delicious,<br /> healthy, and unforgettable meals.</p>
+        <form action="">
+            <button name="button">Contact Us</button>
+        </form>
+    </section>
 
-    <div id="utility">
+    <section id="utility">
         <h1>Utility</h1>
         <h2>Experience, expertise &amp; dedication</h2>
         <p>We offer staffing solutions to make your function or event a success.</p>
-        <button name="button">Contact Us</button>
-    </div>
+        <form action="">
+            <button name="button">Contact Us</button>
+        </form>
+    </section>
 
-    <div class="contact">
+    <section class="contact">
         <p>We would love to work with you.</p>
         <p class="call">Call us</p>
         <p><a class="phone-number" href="tel:6172028179">617-202-8179</a></p>
-        <p>or send us an <a class="email" href="mailto:495simmy@gmail.com">email</a></p>
-    </div>
+        <p>or send us an <a class="email" href="mailto:markspatrick80@yahoo.com">email</a></p>
+    </section>
 
-    <div class="about">
+    <section class="about">
+        <!--
         <img src="{{ site.baseurl }}/img/4-one-logo.png" alt="4ONE Services logo" />
+        -->
         <p>4ONE Services is a Boston-based family-run business with over 30 years of experience<br />in providing moving, cleaning, catering and utility services within the New England Area.<br />We offer professional, reliable services at competitive rates.</p>
-    </div>
+    </section>
 
     <footer>
-        <p>&copy; 2015 4ONE Services  Designed by <a href="http://thecultivators.co" target="_blank">The Cultivators Collective</a></p>
+        <p>&copy; 2015 4ONE Services</p>
     </footer>
-    </div><!-- container -->
 
     <script type="application/ld+json">
         {% include 4one.json %}
