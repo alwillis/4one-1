@@ -8,12 +8,11 @@ layout: null
 </head>
 <body>
     <main>
-        <form action="">
+        <form action="//formspree.io/alwillis@mac.com">
             <fieldset>
                 <legend>Contact information</legend>
                 <p>
-                    <label for="full_name">Full Name</label><span>&nbsp;*</span><br />
-                    <input type="text" id="full_name" autocomplete="name" size="25" required />
+                    <label for="full_name">Full Name</label><span>&nbsp;*<br /></span> <input type="text" id="full_name" autocomplete="name" size="25" required />
                 </p>
 
                 <p>
@@ -57,10 +56,31 @@ layout: null
 
                 <h2>New address</h2>
                 <fieldset>
+                    <p>
+                        <label for="street">Street</label><br />
+                        <input type="text" id="street" autocomplete="street-address" size="25" required />
+                    </p>
 
+                    <p>
+                        <label for="apartment">Apartment or suite number</label><br />
+                        <input type="text" id="apartment" size="5" autocomplete="" />
+                    </p>
+
+                    <p>
+                        <label for="city">City</label><br />
+                        <input type="text" id="city" autocomplete="address-line1" />
+                    </p>
+
+                    <p>
+                        <label for="state">State</label><br />
+                        <input type="text" id="state" size="2" autocomplete="address-line2" />
+                    </p>
+
+                    <p>
+                        <label for="zipcode">Zip code</label><br />
+                        <input type="text" id="zipcode" size="10" autocomplete="postal-code" />
+                    </p>
                 </fieldset>
-
-
         </form>
     </main>
 </body>
