@@ -163,6 +163,11 @@ button {
     font-size: 1rem; /* 16px */
 }
 
+.about img {
+    align-self: center;
+    margin-bottom: 0.5em;
+}
+
 .call, .email {
     color: #003CC3;
     font-size: 1.562rem; /* 25px */
