@@ -25,7 +25,6 @@ body {
         display: flex;
         -webkit-flex-direction: column;
         flex-direction: column;
-        width: 1024px;
         margin: 0 auto;
 }
 
@@ -40,7 +39,7 @@ header {
 
 header h1 {
     font-family: 'Alfa Slab One', serif;
-    font-size: 1.0625rem;
+    font-size: 1.59375rem;
     font-weight: normal;
     margin-bottom: 0;
 }
@@ -48,7 +47,7 @@ header h1 {
 header p {
     color: black;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 300;
     margin-top: 0;
 }
@@ -64,7 +63,25 @@ em {
     font-weight: 900;
 }
 
+/* Form
+   -------------------------------------------------------- */
+button, input {
+    background-color: white;
+    border: 0;
+    border-radius: 20px;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+}
+
 section {
+    background-size: cover;
     color: white;
     text-align: center;
     text-transform: uppercase;
@@ -108,6 +125,7 @@ section {
 
     background: -webkit-image-set( url('../img/moving-1x.jpg') 1x,
                                        '../img/moving-2x.jpg') 2x no-repeat;
+    background-size: cover;
 }
 
 #cleaning {
@@ -115,6 +133,7 @@ section {
 
     background: -webkit-image-set( url('../img/cleaning-1x.jpg') 1x,
                                        '../img/cleaning-2x.jpg') 2x no-repeat;
+    background-size: cover;
 }
 
 #catering {
@@ -122,29 +141,16 @@ section {
 
     background: -webkit-image-set( url('../img/catering-1x.jpg') 1x,
                                        '../img/catering-2x.jpg') 2x no-repeat;
+    background-size: cover;
 }
 
 #utility {
     background: url('../img/utility-1x.jpg') no-repeat;
-
     background: -webkit-image-set( url('../img/utility-1x.jpg') 1x,
                                        '../img/utility-2x.jpg') 2x no-repeat;
+    background-size: cover;
 }
 
-button {
-    background-color: white;
-    border: 0;
-    border-radius: 20px;
-    color: black;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 900;
-    text-transform: uppercase;
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
-
-}
 
 .about, .contact {
     color: black;
@@ -213,9 +219,22 @@ label {
     font-weight: 900;
 }
 
+
 @media screen and (min-width: 1024px) {
+    html {
+        font-size: 100%
+    }
+    body {
+        width: 1024px;
+    }
     section {
         height: 258px;
-        width: 1024px;
+        width: inherit;
+    }
+}
+
+@media screen and (max-width: 596px) {
+    html {
+        font-size: 75%;
     }
 }
